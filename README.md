@@ -3,28 +3,23 @@
 ## 页面介绍：
 ### 系统入口
 
-    **欢迎界面**
-
+**欢迎界面**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image002.png"/></div>
 
-    **服务介绍**
-
+**服务介绍**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image004.png"/></div>
 
-    **服务介绍**
-
+**服务介绍**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image006.png"/></div>
 
-    **支持品牌**
-
+**支持品牌**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image008.png"/></div>
 
-    **项目特色**
-
+ **项目特色**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image010.png"/></div>
 
