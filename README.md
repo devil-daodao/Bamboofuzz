@@ -3,23 +3,27 @@
 ## 页面介绍：
 ### 系统入口
 
-**欢迎界面**
+   **欢迎界面**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image002.png"/></div>
 
-**服务介绍**
+   
+   **服务介绍**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image004.png"/></div>
 
-**服务介绍**
+   
+   **服务介绍**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image006.png"/></div>
 
-**支持品牌**
+   
+   **支持品牌**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image008.png"/></div>
 
- **项目特色**
+   
+   **项目特色**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image010.png"/></div>
 
@@ -33,53 +37,51 @@
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image012.png"/></div>
 
 
+
 ### 容器集群管理界面
 
 容器集群管理功能主要为容器数据展示和容器管理。
 
-
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image018.png"/></div>
 
-图2-3-34 固件容器集群管理界面
 
 具体而言，在数据展示部分，用户可从页面上方可以了解到历史测试的固件数量和正在当前正在测试的固件数量，以及测试固件容器在Running，Stopped，Paused，Waited不同状态下的数量。同时用户可以通过页面上方右侧的动态网络拓扑图中了解到当前Running或Paused的固件的所在的网络环境和网络地址。
 
+   **当前固件运行状态监测与网络拓扑展示**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image020.jpg"/></div>
 
-图2-3-35 当前固件运行状态监测与网络拓扑展示
-
 在页面右侧，平台可视化展现出了历史固件漏洞挖掘的统计结果，方便用户对测试集群的漏洞类型进行感知。在页面的底部，平台对历史固件的固件名称，固件类型，固件品牌，固件架构，测试崩溃次数进行展示，同时用户可以通过右侧下载按钮下载之前测试中产生的崩溃用例。
 
+   **历史固件测试统计数据展示**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image022.jpg"/></div>
 
-图2-3-36 历史固件测试统计数据展示
 
 在容器生命周期管理部分，平台为用户提供了控制固件容器的操作接口，实现虚拟设备的创建，启动，停止，暂存等操作，同时后台的访问控制列表规范了用户对不同状态下的容器操作行为。如图所示，当用户需要对上传固件进行操作时，用户可以在容器集群管理界面中的固件控制板，点击固件容器中的相应的容器操作按钮。
 
+   **固件控制板**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image024.jpg"/></div>
 
-图2-3-37 固件控制板
+
 
 比如ID：003固件为刚刚上传的固件，目前的状态为Waiting，那么现在就可以对固件进行启动或者删除操作。同时点击获取按钮用户可以从下拉列表中对固件基本信息进行提取，或下载固件中的文件系统和内核。
 
+   **固件静态分析操作**
 
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image026.jpg"/></div>
 
-图2-3-38 固件静态分析操作
-
-(3)   终端交互界面
-
-进入分控台后，首先是固件基本信息显示页面，左侧信息包括固件品牌、固件CPU架构、固件型号、服务器类型等。右侧提供固件系统信息，包括内核引导程序路径、内核版本号、文件系统hash值、文件系统类型和端口服务。用户可以在此页面获取固件的基本信息。
-
-进入分控台后，可以选择页面上方的固件终端交互界面。点击导航栏后浏览器弹出提醒，点击确定后可进入固件的命令行界面中。
+图2-3-38 
 
 
+### 终端交互界面
+
+进入分控台后，首先是固件基本信息显示页面，左侧信息包括固件品牌、固件CPU架构、固件型号、服务器类型等。右侧提供固件系统信息，包括内核引导程序路径、内核版本号、文件系统hash值、文件系统类型和端口服务。用户可以在此页面获取固件的基本信息。进入分控台后，可以选择页面上方的固件终端交互界面。点击导航栏后浏览器弹出提醒，点击确定后可进入固件的命令行界面中。
+
+   ***弹出提醒及固件基本信息页面***
 <div align=center><img src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image028.jpg"/></div>
 
-图2-3-39 弹出提醒及固件基本信息页面
 
 在固件交互终端中，可以进入搭建好的python环境并运行程序文件，对固件环境进行网络监控、系统调试、端口扫描等，提供给用户实时监控固件系统运行状态的功能。
 
