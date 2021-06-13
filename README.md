@@ -4,6 +4,5 @@
 ### 系统入口
 
 
-<div align=center> 
-  ![电脑萤幕画面  描述已自动生成](https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image002.png)
- <div>
+
+<div align=center><img width="150" height="150" src="https://github.com/dalision/Bamboofuzz/blob/main/images/clip_image002.png"/></div>
